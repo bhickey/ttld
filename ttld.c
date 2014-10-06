@@ -48,7 +48,7 @@ uint32_t parse_time(const char* timeval) {
     default:
       m = 60 * 60; // Assume hours.
   }
-  int32_t result = strtol(timeval, NULL, 10);
+  long result = strtol(timeval, NULL, 10);
   if (result < 0) {
     return 0;
   }
