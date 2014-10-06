@@ -1,5 +1,5 @@
 // Copyright 2014 Brendan Hickey
-// Released under the BSD license.
+// Released under the MIT license.
 // See LICENSE.
 
 #include "ttld.h"
