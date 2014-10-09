@@ -12,6 +12,10 @@ Given a root, ttld walk the directory tree, it looks for time specifiers in
 the directory path. It compares the specifier value with file modification
 time and deletes files that are old.
 
+What should I use this for?
+---------------------------
+Cleaning up your crufty ~/Downloads directory.
+
 How?
 ----
 1. Create directories resembling /ttl=time/
